@@ -34,7 +34,11 @@ header nav .left a {
   color: var(--pure);
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 2rem;
 }
 header nav{
   padding: 2rem 0;
+}
+header nav .branding{
+  margin-right: 3rem;
 }
