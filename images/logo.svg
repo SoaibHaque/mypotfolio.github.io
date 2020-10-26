@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <radialGradient cy="0.32422" cx="0.78516" spreadMethod="pad" id="svg_3">
+   <stop offset="0" stop-color="#1F361B"/>
+   <stop offset="1" stop-color="#e0c9e4"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-style="italic" canvas="#000000" canvas-opacity="1" font-weight="bold" stroke="url(#svg_3)" transform="matrix(6.011212670087619,0,0,6.053521115997764,-968.7950924777476,-1115.2568270132908) " xml:space="preserve" text-anchor="start" font-family="'Simonetta', serif" font-size="24" id="svg_2" y="241.58734" x="163.67952" stroke-width="0" fill="#ffffff">Soaib</text>
+  <text font-weight="bold" font-style="italic" stroke="url(#svg_3)" transform="matrix(5.228994042777487,0,0,6.045589036378032,-2118.1118599581623,-1528.1507914426893) " xml:space="preserve" text-anchor="start" font-family="'Simonetta', serif" font-size="24" id="svg_4" y="309.50377" x="479.0784" stroke-width="0" fill="#3dcfd3">Haque</text>
+ </g>
+</svg>
