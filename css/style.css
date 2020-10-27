@@ -49,16 +49,19 @@ header nav .branding {
 }
 
 .container {
-  padding: 0 15px;
+  padding: 0 100px;
   max-width: 1152px;
   margin: 0 auto;
 }
-.hero{
+
+.hero {
   padding: 2rem 0;
 }
-.hero .left img{
+
+.hero .left img {
   width: 200%;
 }
+
 .hero .right {
   color: var(--pure);
 }
@@ -84,6 +87,64 @@ header nav .branding {
   line-height: 1.9;
   margin-bottom: 2rem;
 }
-.hero .right{
+
+.hero .right {
   margin-top: -7rem;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+section.about .about-me-img {
+  width: 80%;
+}
+
+section.about h1 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+section.about h1 span {
+  color: var(--primary);
+}
+
+section.about h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+section.about p {
+  font-family: 'Lato', sans-serif;
+  color: var(--ternary);
+  line-height: 1.9;
+  margin-bottom: 2rem
+}
+
+section.about .social {
+  display: flex;
+}
+
+section.about .social a {
+  background-color: var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+ -webkit-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ transition: all 0.3s ease;
+}
+section.about .social a:hover{
+  background-color: var(--primary);
+}
+section.about .social a img{
+  height: 100%;
+  width: 100%;
+  padding: 0.4rem;
 }
