@@ -136,6 +136,7 @@ section.about .social a {
   height: 35px;
   border-radius: 50%;
   margin-right: 0.6rem;
+  text-decoration: none;
  -webkit-transition: all 0.3s ease;
  -o-transition: all 0.3s ease;
  transition: all 0.3s ease;
@@ -147,4 +148,9 @@ section.about .social a img{
   height: 100%;
   width: 100%;
   padding: 0.4rem;
+}
+div.card-wapper .card i{
+  background-color: var(--primary);
+  font-size: 100px;
+  padding: 2%;
 }
