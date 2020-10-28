@@ -2,16 +2,11 @@
 
 :root {
   --primary: #3dcfd3;
+  --secondary: #070606;
   --dark: #161616;
   --pure: #ffff;
   --ternary: #898989;
   --light: #f2f2f2;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  width: 100%;
-  height: 100%;
 }
 
 * {
@@ -21,9 +16,23 @@ body {
   -webkit-font-smotting: antialiased;
 }
 
+body, html {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  /* cursor:var(--cursor); */
+}
+
 header {
   background: var(--dark);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+header nav {
+  padding: 2rem 0;
+}
+
+header nav .branding {
+  margin-right: 3rem;
 }
 
 header nav .left a {
@@ -38,14 +47,6 @@ header nav .left a {
 
 header nav .left a:hover {
   color: var(--primary);
-}
-
-header nav {
-  padding: 2rem 0;
-}
-
-header nav .branding {
-  margin-right: 3rem;
 }
 
 .container {
@@ -66,12 +67,6 @@ header nav .branding {
   color: var(--pure);
 }
 
-.hero .right h6 {
-  color: var(--primary);
-  font-size: 1.6rem;
-  margin-bottom: 0.6rem;
-}
-
 .hero .right h1 {
   font-size: 4rem;
   font-weight: 100;
@@ -83,21 +78,23 @@ header nav .branding {
   color: var(--primary);
 }
 
-.hero .right p {
-  line-height: 1.9;
-  margin-bottom: 2rem;
+.hero .right h6 {
+  color: var(--primary);
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
 }
 
 .hero .right {
   margin-top: -7rem;
 }
 
-section {
-  padding: 6rem 0;
+.hero .right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
 }
 
-section.about .about-me-img {
-  width: 80%;
+section {
+  padding: 6rem 0;
 }
 
 section.about h1 {
@@ -132,25 +129,88 @@ section.about .social a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   margin-right: 0.6rem;
   text-decoration: none;
- -webkit-transition: all 0.3s ease;
- -o-transition: all 0.3s ease;
- transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-section.about .social a:hover{
+
+section.about .social a:hover {
   background-color: var(--primary);
 }
-section.about .social a img{
-  height: 100%;
-  width: 100%;
-  padding: 0.4rem;
+
+section.about .about-me-img {
+  width: 80%;
 }
-div.card-wapper .card i{
+
+.section-heading {
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 0.5;
+}
+
+.section-heading span {
+  color: var(--primary);
+}
+
+.section-heading+p {
+  color: var(--ternary);
+  text-align: center;
+  margin-bottom: 8rem;
+  font-family: 'Lato', sans-serif;
+}
+
+section.service {
+  background: var(--light);
+}
+
+section.service .card-wapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 6rem 2rem;
+}
+
+section.service .card-wapper .card {
+  text-align: center;
+  background: var(--pure);
+  padding: 5rem 2rem 3rem 2rem;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+section.service .card-wapper .card i {
   background-color: var(--primary);
-  font-size: 100px;
-  padding: 2%;
+  font-size: 3rem;
+  padding: 1.4rem;
+  position: absolute;
+  top: -3.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+section.service .card-wapper .card h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section.service .card-wapper .card p {
+  font-family: 'Lato', sans-serif;
+  color: var(--ternary);
+  line-height: 1.6;
+}
+
+section.service .card-wapper .card:hover {
+  background: var(--dark);
+  color: var(--pure);
 }

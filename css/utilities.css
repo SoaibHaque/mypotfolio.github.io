@@ -46,6 +46,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .btn-secondary:hover {
   background-color: var(--primary);
   color: var(--dark);
@@ -54,3 +55,8 @@
 .flex-1 {
   flex: 1;
 }
+.cursor{
+  width: 200px;
+  height: 200px;
+  background: var(--primary);
+  clip-path: polygon(20% 0, 100% 60%, 40% 55%, 65% 80%, 40% 90%, 40% 55%, 0 100%);
