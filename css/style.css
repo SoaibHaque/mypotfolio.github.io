@@ -19,7 +19,6 @@
 body, html {
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  /* cursor:var(--cursor); */
 }
 
 header {
@@ -213,4 +212,45 @@ section.service .card-wapper .card p {
 section.service .card-wapper .card:hover {
   background: var(--dark);
   color: var(--pure);
+}
+
+section.freelancer {
+  padding: 6rem 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/camera.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--pure);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+}
+
+section.freelancer h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section.freelancer p {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 4rem;
+}
+
+section.freelancer button {
+  margin-bottom: 10rem;
+}
+
+section.reviews .slider .slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+section.reviews .slider .slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

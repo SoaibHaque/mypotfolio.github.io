@@ -55,7 +55,8 @@
 .flex-1 {
   flex: 1;
 }
-.cursor{
+
+.cursor {
   width: 200px;
   height: 200px;
   background: var(--primary);
